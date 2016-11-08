@@ -1,7 +1,7 @@
 {
   "name": "assignment",
   "version": "1.0.0",
-  "description": "websocket assigment"
+  "description": "websocket assigment",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"build": "node node_modules\\webpack-dev-server\\bin\\webpack-dev-server.js --content-base ./client/ --hot --inline",

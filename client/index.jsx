@@ -45,5 +45,5 @@ render(){
 }
 }
 ReactDOM.render(
-    <FileData/>,document.getElementById('messages')
+    <FileData/>,document.getElementById('root')
 );

@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
 	"build": "node node_modules\\webpack-dev-server\\bin\\webpack-dev-server.js --content-base ./client/ --hot --inline",
-	"postinstall": "webpack",
-	"start": "node server/index.js"
+	"start": "node server/index.js",
+	"postinstall": "webpack"
   },
   "keywords": [
     "socket",
